@@ -1,0 +1,72 @@
+body {
+    background-image: url("blue.jpg");
+    background-size: 30%;
+}
+
+#h1 {
+    text-align: center;
+    text-shadow: 1px 2px 3px #DDEEFF,
+                    0 0 0 black,
+                    -1px 1px 0 #DDEEFF,
+                    1px 1px 0 white;
+    
+    color: rgba(254, 103, 2, .8);
+    letter-spacing: -5px;
+    font-size: 4em;
+    font-weight: bold; 
+}
+
+#h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: rgb(5, 65, 5);
+    -webkit-text-stroke: 1px hotpink;
+    border: 6px dashed rgb(77, 12, 77);
+    width: 220px;
+    height: 180px;
+    float: left;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+#h2:hover {
+    background-color: lawngreen;
+}
+
+#list {
+    margin: 10px 570px;
+}
+
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 140px;
+    height: 80px;
+    background-color: hotpink;
+    weight: bold;
+    color: rgb(94, 35, 11);
+    -webkit-text-stroke: 1px lawngreen;
+    font-size: 1.2em;
+    border: 3px solid rgb(77, 12, 77);
+    margin: 10px 0px;
+}
+
+.button:hover {
+    background-color: rgb(94, 94, 194);
+}
+
+#score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 2em;
+    color: rgb(209, 64, 28);
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-size: 2em;
+}
